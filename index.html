@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindBridge</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</head>
+
+
+<body>
+
+    <header>
+        <img src="image.png" alt="MindBridge Logo">
+    </header>
+
+    <div class="container" id="home">
+        <h2>
+            <center>Welcome to MindBridge</center>
+        </h2>
+        <p>
+            <center>Your mental health is our priority. Connect with AI ChatBots, join group chats, and access
+                professional therapists.</center>
+        </p>
+    </div>
+
+
+    <div class="container" id="login">
+        <h2>
+            <center>Login</center>
+        </h2>
+        <form>
+            <div class="form-group">
+                <label for="username1">Username:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="form-group"><center>
+                <button type="button" onclick="location.href='dashboard.html'">Demo</button> OR <button type="button" onclick="location.href='create.html'">Create your account</button></center>
+
+
+
+            </div>
+        </form>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2024 MindBridge. All rights reserved.</p>
+    </footer>
+    <script src="script.js">
+        document.getElementById('login').addEventListener('click', loginMethod);
+
+    </script>
+    <script type="module" src="main.js"></script>no
+</body>
+
+</html>

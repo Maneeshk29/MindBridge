@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Gratitude Journal</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="quest.html">Home</a>
+        <a href="dashboard.html">dashboard</a>
+        <a href="meditation.html">Daily Meditation</a>
+        <a href="walk.html">Daily Walk</a>
+    </div>
+    <div class="quest" id="gratitude-journal-quest">
+        <h3>Daily Gratitude Journal</h3>
+        <p>Write down three things you are grateful for each day.</p>
+        <label for="gratitude-date">Date:</label>
+        <input type="date" id="gratitude-date">
+        <textarea id="gratitude-journal-entry" rows="4" cols="50" placeholder="I am grateful for..."></textarea>
+        <button onclick="saveGratitudeEntry()">Submit</button>
+        <div id="gratitude-entries"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindBridge Dashboard</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome, User!</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quest.html">Quest</a>
+            <a href="dashboard.html">Dashboard</a>
+
+        </nav>
+    </header>
+    <main>
+        <h2 class="center">Select an Option</h2>
+        <div class="options">
+            <div class="option">
+                <img src="logo.png" alt="AI Chat Logo" class="option-logo">
+                <h3>AI Chat</h3>
+                <p>Talk to our AI ChatBot for 24/7 assistance.</p>
+                <button onclick="navigateTo('ai-chat.html')">Start AI Chat</button>
+            </div>
+            <div class="option">
+                <img src="logo3.png" alt="Video Chat Logo" class="option-logo">
+                <h3>Video Chat</h3>
+                <p>Connect with others who share your interests.</p>
+                <button onclick="navigateTo('video-chat.html')">Start Video Chat</button>
+            </div>
+            <div class="option">
+                <img src="logo2.png" alt="Group Chat Logo" class="option-logo">
+                <h3>Group Chat</h3>
+                <p>Join a group chat with people having similar personality as you!
+                    </p>
+                <button onclick="navigateTo('group-chat.html')">Join Group Chat</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 MindBridge. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
